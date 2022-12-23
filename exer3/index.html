@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <h2>Cálculo IMC</h2>
+
+    <label for="altura">Altura (Ex: 1.70)</label>
+    <input type="number" id="altura"><br>
+    <label for="peso">Peso (Ex: 70)</label>
+    <input type="number" id="peso"><br>
+
+    <input id="calcular" type="button" onclick="calcular()" value="Calcular"><br>
+
+    <table>
+      <caption>TABELA PARA INTERPRETAR O IMC</caption>
+      <thead>
+        <tr>
+          <th>IMC</th>
+          <th>Classificação</th>
+          <th>Obesidade (grau)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>menor que 18,5</td>
+          <td>magreza</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>entre 18,5 e 24,9</td>
+          <td>normal</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>entre 25,0 e 29,9</td>
+          <td>sobrepeso</td>
+          <td>I</td>
+        </tr>
+        <tr>
+          <td>entre 30,0 e 39,9</td>
+          <td>obesidade</td>
+          <td>II</td>
+        </tr>
+        <tr>
+          <td>maior que 40,0</td>
+          <td>obesidade grave</td>
+          <td>III</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+
+    <h3 id="resposta">SEU IMC: </h3>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
