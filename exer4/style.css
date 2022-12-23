@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+label{
+  display: inline-block;
+  width: 160px;
+  background-color: #cccccc;
+  padding: 2px;
+  text-align: right;
+  font-weight: bold;
+}
