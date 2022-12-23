@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 20px;
+}
+
+#tela{
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 850px;
+  height: 520px;
+  background-color: rgb(144, 91, 210);
+}
+
+nav{
+  border-bottom: 5px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 770px;
+  height: 100px;
+  background-color: #ffffff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+input{
+  font-weight: bold;
+  font-size: 25px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input:hover{
+  background-color: rgb(221, 216, 49);
+}
+
+#valor_saque{
+  height: 40px;
+}
+
+#valor_saque:hover{
+  background-color: white;
+}
+
+#botao_sacar{
+  background-color: rgb(0, 255, 0, 0.3);
+  font-size: 34px;
+}
+#botao_sacar:hover{
+  background-color: #34c200;
+}
+
+#sub_titulos{
+  text-align: left;
+  margin-left: 20px;
+}
+
+h1{
+  font-size: 70px;
+  margin-left: 10px;
+}
+
+span{
+  color: rgb(221, 216, 49);
+}
+
+h3{
+  font-size: 14px;
+}
+
+#separador{
+  font-size: 60px;
+  margin: 0 0 13px 20px;
+}
+
+#aviso{
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#tela_centro{
+  background-color: #eeeeee;
+  padding: 10px 15px 0 15px;
+  display: block;
+  border-right: 5px solid rgb(0, 0, 0);
+  border-bottom: 5px solid rgb(0, 0, 0);
+  border-bottom-left-radius: 20px;
+  border-radius: 20px;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
