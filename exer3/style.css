@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  background-color: #cccccc;
+  align-items: center;
+  border: 1px solid black;
+  height: 350px;
+  width: 350px;
+  margin: 0 auto;
+}
+
+input{
+  height: 15px;
+  width: 125px;
+}
+
+#calcular{
+  height: 20px;
+  width: 80px;
+}
+
+table{
+  width: 300px;
+}
+
+table,
+caption,
+th,
+td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 13px;
+  text-align: center;
+}
+
+caption{
+  font-weight: bold;
+  background-color: steelblue;
+}
+
+th,
+td{
+  background-color: #FFFFFF;
+}
+
+th{
+  color: #2c618c;
+}
